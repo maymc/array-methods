@@ -34,3 +34,7 @@ phoneNumber.reverse(); //reverses the order of the elements
 //////////
 var nextOrder = orderQueue.shift(); //removes first element in the array and returns the element removed
 //////////
+mixedNums.sort(); //sorts the numbers in order
+//////////
+mixedWords.sort(); //sorts this array alphabetically
+/////////
