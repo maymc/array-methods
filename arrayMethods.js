@@ -19,15 +19,18 @@ var bulkNumbers = [5, 5, 6, 6, 9, 9, 2, 2, 2, 5, 2];
 var nameArray = [];
 var firstName = "May";
 var lastName = "Chen";
-nameArray.push(firstName);
-nameArray.push(lastName);
+nameArray.push(firstName); //pushes firstName into array
+nameArray.push(lastName); //pushes lastName into array
 
 for(var i=6; i<=10; i++){
-    genericNumberArray.push(i);
+    genericNumberArray.push(i); //pushes #6-10 to the array
 }
 //////////
-var popResult = colors.pop();
+var popResult = colors.pop(); //pops out the last element and returns the value popped
 //////////
-scrambledWords.reverse();
+scrambledWords.reverse(); //reverses the order of the elements
 //////////
-phoneNumber.reverse();
+phoneNumber.reverse(); //reverses the order of the elements
+//////////
+var nextOrder = orderQueue.shift(); //removes first element in the array and returns the element removed
+//////////
